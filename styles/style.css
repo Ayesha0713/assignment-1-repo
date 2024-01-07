@@ -10,20 +10,22 @@ header{
     height: 600px;
     border-radius: 16px;
     background-repeat: no-repeat;
-    margin: 50px 300px;
+    margin: 50px 295px;
 }
 header .banner .banner-title{
     color: #FFF;
     text-align: center;
-    font-family: 'Merriweather';
     font-size: 32px;
-    padding: 170px 250px;
-    font-weight: 400;
+    padding: 180px 0px 0px 0px;
+    font-weight: 100;
+    line-height: 0px;
 }
 header .banner .banner-greeting{
-    color: #ffffff;
-    width: 632px;
-    height: 190px;
-    font-family: 'Merriweather', serif;
+    color: #FFF;
+    width: 635px;
     font-size: 72px;
     text-align: center;
+    font-style: normal;
+    padding: 0px 0px 2px 350px;
+    line-height: 65px;
+}
