@@ -1,0 +1,29 @@
+body{
+    width: 1600px;
+    height: 7335px;
+    background: #FFF;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.10)), url('../resources/Banner Image.png');
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    margin: 50px 300px;
+}
+header .banner .banner-title{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 32px;
+    padding: 170px 250px;
+    font-weight: 400;
+}
+header .banner .banner-greeting{
+    color: #ffffff;
+    width: 632px;
+    height: 190px;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    text-align: center;
