@@ -132,7 +132,7 @@ header .banner .banner-greeting{
     height: 482px;
     margin: 100px 295px 10px 295px;
     text-align: center;
-    background-color:#FFF;
+    background: linear-gradient(rgba(255, 0, 0, 0.12), rgba(255, 0, 0, 0.0));
     padding-top: 220px;
 }
 .info{
@@ -146,11 +146,13 @@ header .banner .banner-greeting{
 }
 .info h4 .highlight{
     color: #F00;
+    text-align: center;
 }
 .info-details .btn-2{
     padding: 16px 32px;
     border: none;
     border-radius: 8px;
+    text-align: center;
     background-color: #F00;
     color:#FFF;
     font-size: 20px;
