@@ -1,6 +1,5 @@
 body{
-    max-width: 1600px;
-    min-height: 7335px;
+    width: 1600px;
     background: #FFF;
 }
 
@@ -235,8 +234,6 @@ header .banner .banner-greeting{
     line-height: 25px;
 }
 
-/* Optional part styles */
-
 /* Portfolio styles */
 .portfolio{
     width: 1320px;
@@ -336,4 +333,58 @@ header .banner .banner-greeting{
     color: #FFF;
     background: #F00;
     border: none;
+}
+
+/* Footer styles */
+
+footer{
+    background: #070211;
+    width: 1897px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .right{
+    margin: 100px 0px 0px 100px;
+    line-height: 300px;
+}
+
+footer .rights{
+    margin-top: 200px;
+}
+
+footer p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 25px;
+    text-align: left;
+}
+
+footer .center{
+    margin: 220px 100px 0px 0px;
+}
+
+footer h4{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer .left .contact{
+    margin: 10px 100px 0px 0px;
+    border-top: 50px;
+}
+
+footer .left{
+    margin: 100px 100px 0px 120px;
+}
+
+footer .un-sub{
+    margin-top: 200px;
+    margin-left: 120px;
 }
