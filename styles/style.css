@@ -288,9 +288,9 @@ header .banner .banner-greeting{
 .newsletter{
     width: 1320px;
     height: 646px;
-    margin: 50px 295px 10px 295px;
+    margin: 0px 295px 50px 295px;
     text-align: center;
-    background-color: #FFF;
+    background-color: #ffd4d4;
 }
 
 .newsletter-details{
@@ -314,35 +314,41 @@ header .banner .banner-greeting{
     margin: 0px auto;
 }
 
-.subscribe-box{
-    margin-top: 40px;
+.search-box{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 20px;
 }
 
-.subscribe-box input{
-    width: 648px;
+.newsletter input{
+    width: 646px;
     height: 72px;
-    border-radius: 50px;
+    border-radius: 50px 0px 0px 50px;
     background: #FFF;
     border: none;
 }
 
 .subscribe-box button{
-    width: 210px;
+    width: 220px;
     height: 72px;
     border-radius: 0px 50px 50px 0px;
     color: #FFF;
     background: #F00;
     border: none;
+    text-align: center;
+    font-size: 20px;
 }
 
 /* Footer styles */
 
 footer{
     background: #070211;
-    width: 1897px;
+    width: 1900px;
     height: 500px;
     display: flex;
     justify-content: space-around;
+    margin-left: 0;
+    margin-bottom: 0;
 }
 
 footer .right{
@@ -364,7 +370,7 @@ footer p{
 }
 
 footer .center{
-    margin: 220px 100px 0px 80px;
+    margin: 220px 0px 0px 80px;
 }
 
 footer h4{
@@ -386,5 +392,5 @@ footer .left{
 
 footer .un-sub{
     margin-top: 200px;
-    margin-left: 120px;
+    margin-left: 200px;
 }
