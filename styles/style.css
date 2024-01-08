@@ -240,7 +240,7 @@ header .banner .banner-greeting{
 /* Portfolio styles */
 .portfolio{
     width: 1320px;
-    height: 900px;
+    height: 1220px;
     margin: 100px 295px 10px 295px;
     background-color: #FFF;
 }
@@ -284,4 +284,56 @@ header .banner .banner-greeting{
     height: 450px;
     line-height: 100px;
     border-radius: 20px;
+}
+
+/* Subscribe section styles */
+
+.newsletter{
+    width: 1320px;
+    height: 646px;
+    margin: 50px 295px 10px 295px;
+    text-align: center;
+    background-color: #FFF;
+}
+
+.newsletter-details{
+    padding: 100px 0px 0px 0px;
+}
+.newsletter-details h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+}
+.newsletter-details p{
+    width: 896px;
+    color: #070211;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin: 0px auto;
+}
+
+.subscribe-box{
+    margin-top: 40px;
+}
+
+.subscribe-box input{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+}
+
+.subscribe-box button{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    color: #FFF;
+    background: #F00;
+    border: none;
 }
