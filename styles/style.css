@@ -52,7 +52,7 @@ header .banner .banner-greeting{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.categoies-details h3{
+.text{
     color: #F00;
     text-align: center;
     font-size: 24px;
@@ -62,11 +62,10 @@ header .banner .banner-greeting{
     padding-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.categoies-details h2{
+.all-categories{
     color: #070211;
     text-align: center;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -156,4 +155,133 @@ header .banner .banner-greeting{
     background-color: #F00;
     color:#FFF;
     font-size: 20px;
+}
+
+/* Coming soon section styles */
+
+.coming-section{
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    height: 482px;
+    margin: 100px 295px 10px 295px;
+    text-align: left;
+    line-height: 1px;
+}
+
+.coming-section h3{
+    color: #F00;
+    text-align: left;
+    font-size: 24px;
+    padding-top: 60px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.coming-section h2{
+    color: #070211;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+}
+
+.coming-soon-p{
+    color: #070211;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    border: none;
+
+}
+.coming-soon-img{
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    margin-right: 50px;
+    border: 15px solid #F00;
+}
+
+.coming-soon-img{
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 364.844px;
+    background-image: url('../resources/Group96.png');
+    background-color: #ffffffd1;
+    padding: 30px;
+}
+
+.left-title{
+    align-items: flex-start;
+    text-align: left;
+    padding-top: 60px;
+    padding-right: 10px;
+}
+.left-title h2{
+    color: #F00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+.left-title .coming-soon-para{
+    color: #070211;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* Optional part styles */
+
+/* Portfolio styles */
+.portfolio{
+    width: 1320px;
+    height: 900px;
+    margin: 100px 295px 10px 295px;
+    background-color: #FFF;
+}
+
+.portfolio-details{
+    line-height: 1px;
+}
+
+.portfolio-details h3{
+    color: #F00;
+    text-align: left;
+    font-size: 24px;
+    padding-top: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.portfolio-details h2{
+    color: #070211;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+}
+.portfolio-details p{
+    width: 896px;
+    color: #070211;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.portfolio-img{
+    display: inline;
+    justify-content: space-between;
+}
+
+.portfolio-img img{
+    width: 424px;
+    height: 450px;
+    line-height: 100px;
+    border-radius: 20px;
 }
