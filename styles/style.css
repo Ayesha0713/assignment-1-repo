@@ -274,7 +274,7 @@ header .banner .banner-greeting{
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
-    margin: 0px 126px 0px 126px
+    margin: 0px 126px 0px 126px;
 }
 
 .optional .box img{
@@ -472,3 +472,5 @@ footer .un-sub{
     margin-top: 200px;
     margin-left: 200px;
 }
+
+/* End */
